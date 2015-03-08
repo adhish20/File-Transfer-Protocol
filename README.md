@@ -1,17 +1,17 @@
 # File-Transfer-Protocol
 
-Compilation:
-$ chmod 777 run.sh
-$ ./run.sh
+###Compilation:
+- $ chmod 777 run.sh
+- $ ./run.sh
 
-Run Using:
-$ ./ftp <Listen Port No> <Connect Port No> <ip of server> <protocol(tcp or udp)>
+###Run Using:
+- $ ./ftp  Listen_Port_No  Connect_Port_No  ip_of_server  protocol(tcp or udp)
 
-Commands you can use:
-1. IndexGet --longlist
-2. IndexGet --shortlist timestamp1 timestamp2
-3. IndexGet --regex Regular_Expression
-4. FileUpload FileName
-5. FileDownload FileName
-6. FileHash --checkall
-7. FileHash --verify FileName
+###Commands you can use:
+- IndexGet --longlist
+- IndexGet --shortlist timestamp1 timestamp2
+- IndexGet --regex Regular_Expression
+- FileUpload FileName
+- FileDownload FileName
+- FileHash --checkall
+- FileHash --verify FileName
